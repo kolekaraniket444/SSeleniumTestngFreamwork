@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-25T09:36:43 IST" name="Suite" finished-at="2024-12-25T09:37:30 IST" duration-ms="46600">
+    <groups>
+    </groups>
+    <test started-at="2024-12-25T09:36:43 IST" name="Test" finished-at="2024-12-25T09:37:30 IST" duration-ms="46600">
+      <class name="TestCases.verifyragistration">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:36:42 IST" name="setupReport" finished-at="2024-12-25T09:36:43 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:36:43 IST" name="BrowserLunch" finished-at="2024-12-25T09:36:56 IST" duration-ms="12697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="verifyragistrationpage()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:36:56 IST" name="verifyragistrationpage" finished-at="2024-12-25T09:37:01 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyragistrationpage -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:37:02 IST" name="BrowserLunch" finished-at="2024-12-25T09:37:14 IST" duration-ms="12714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="verifyregestrationblankdetails()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:37:14 IST" name="verifyregestrationblankdetails" finished-at="2024-12-25T09:37:18 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregestrationblankdetails -->
+        <test-method is-config="true" signature="endReporttest()[pri:0, instance:TestCases.verifyragistration@72d1ad2e]" started-at="2024-12-25T09:37:30 IST" name="endReporttest" finished-at="2024-12-25T09:37:31 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReporttest -->
+      </class> <!-- TestCases.verifyragistration -->
+      <class name="TestCases.verifylogin">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:TestCases.verifylogin@1189dd52]" started-at="2024-12-25T09:37:18 IST" name="BrowserLunch" finished-at="2024-12-25T09:37:26 IST" duration-ms="8206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="loginwithvaliddata()[pri:0, instance:TestCases.verifylogin@1189dd52]" started-at="2024-12-25T09:37:26 IST" name="loginwithvaliddata" finished-at="2024-12-25T09:37:30 IST" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvaliddata -->
+      </class> <!-- TestCases.verifylogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
