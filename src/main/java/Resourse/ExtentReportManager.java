@@ -22,7 +22,7 @@ public class ExtentReportManager {
 		extent.setSystemInfo("hostname", "LocalHost");
 		extent.setSystemInfo("os", "windows8.1");
 		extent.setSystemInfo("browserName", "Chrome");
-		extent.setSystemInfo("testername", "akash");
+		extent.setSystemInfo("testername", "Aniket");
 	}
 
 	public static void endReport() {

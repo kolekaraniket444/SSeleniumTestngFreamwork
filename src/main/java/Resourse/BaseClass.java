@@ -63,8 +63,6 @@ public class BaseClass {// browser lunch code+++
 	       ExtentReportManager.setup();
 	 }
 	
-	 
-	 
 	 @AfterSuite
 	 public void endReporttest() {
 		 ExtentReportManager.endReport();

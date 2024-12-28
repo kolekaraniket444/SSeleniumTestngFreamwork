@@ -13,7 +13,7 @@ import Resourse.BaseClass;
 import Resourse.common_method;
 import Resourse.constants;
 
-public class AddToCartTestcase extends BaseClass {
+public class AddToCartTestcase extends BaseClass {    //random changes 
 	@Test
 	public void AddtoCartTestcase() throws InterruptedException {
 		
@@ -23,13 +23,6 @@ public class AddToCartTestcase extends BaseClass {
         common_method.expliciteWait(driver, 10, driver.findElement(By.xpath("//p[@class='price']")));
         String iphoneprise =acpo.Iphoneprise().getText();
        
-//		driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys("iphone");
-//		driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']")).click();
-//		common_method.expliciteWait(driver, 10, driver.findElement(By.xpath("//p[@class='price']")));
-
-//		String iphoneprise = driver.findElement(By.xpath("//p[@class='price']")).getText();
-//		System.out.println(iphoneprise);
-//		
 		String [] iphonearray =iphoneprise.split(" ");
 		System.out.println(Arrays.toString(iphonearray));
 		String iphonecost=iphonearray[0];
@@ -63,19 +56,16 @@ public class AddToCartTestcase extends BaseClass {
 		double samsungprisedouble=Double.parseDouble(samsungfinalprise);
 		
 		double totalphonecost =iphoneprisedouble+samsungprisedouble;
-		System.out.println(totalphonecost);
+		System.out.println(totalphonecost+"totalcost");
 		String totalphonecosts="$"+totalphonecost;
-		System.out.println(totalphonecosts);
 		
 		//click on main add tocart
 		driver.findElement(By.xpath("//div[@class='btn-group btn-block']")).click();		
 		//total from cart 
 		String addttocarttotal = driver.findElement(By.xpath("//table[@class='table table-bordered']//tr[4]/td[2]")).getText();
-		//(//td[@class='text-right'])[12]          //table[@class='table table-bordered']//tr[4]/td[2]
-		
-		
-		if(totalphonecosts.equalsIgnoreCase(addttocarttotal)) {
-			System.out.println("the value is matching for add to cart "+totalphonecosts);
+	
+		if(addttocarttotal.equals(totalphonecosts)) {
+			System.out.println("the value is matching for add to cart ");
 		}
 		else {
 			System.out.println("test case fail value is not matching");
