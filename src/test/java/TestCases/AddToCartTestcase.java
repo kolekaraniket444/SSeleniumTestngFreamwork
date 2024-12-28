@@ -13,7 +13,8 @@ import Resourse.BaseClass;
 import Resourse.common_method;
 import Resourse.constants;
 
-public class AddToCartTestcase extends BaseClass {    //random changes 
+public class AddToCartTestcase extends BaseClass {    //random changes aniketgit
+	
 	@Test
 	public void AddtoCartTestcase() throws InterruptedException {
 		
