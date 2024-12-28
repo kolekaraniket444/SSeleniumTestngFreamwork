@@ -13,8 +13,10 @@ import Resourse.BaseClass;
 import Resourse.common_method;
 import Resourse.constants;
 
-public class AddToCartTestcase extends BaseClass {    //random changes swapnil chenges happen
-	//here
+
+public class AddToCartTestcase extends BaseClass {    //random changes aniketgit
+	
+
 	@Test
 	public void AddtoCartTestcase() throws InterruptedException {
 		
