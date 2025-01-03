@@ -6,7 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportManager {
-
+//anik
 	public static ExtentSparkReporter htmlReporter; // repsosnible for look
 	public static ExtentReports extent; // Resposnisble for entries
 	public static ExtentTest test; // Respossible for test status pass/fail
